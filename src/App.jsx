@@ -1,28 +1,23 @@
 import React from "react";
 import "./index.css";
-import ContactList from "./Components/Contacts"
+import User from "./Components/ContactUserCard"
+import Nav from "./Components/NavBar"
 import Post from "./Components/Post/"
+import FormatCards from "./Components/ContactUserCard";
 
 
-function formatName(user) {
-  return user.firstName + " " + user.lastName;
-}
 
-const user = {
-  firstName: "Nicki",
-  lastName: "Roxx",
-};
-
-const hello = <h1>Hello, {formatName(user)}!</h1>;
 
 function App() {
   return (
     <div className="App">
-      {hello}
+    
       <h2>Feed</h2>
+      <Nav />
       <Post />
       <Post />
-      <ContactList />
+      <User />
+    <FormatCards />
     </div>
   );
 }
