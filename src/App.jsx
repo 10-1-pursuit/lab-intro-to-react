@@ -9,8 +9,8 @@ function formatName(user) {
 }
 
 const user = {
-  firstName: "My",
-  lastName: "Name",
+  firstName: "Nicki",
+  lastName: "Roxx",
 };
 
 const hello = <h1>Hello, {formatName(user)}!</h1>;
