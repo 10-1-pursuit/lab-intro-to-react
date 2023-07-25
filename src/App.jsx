@@ -14,8 +14,7 @@ function App() {
    <UserProfile/>
    <Post></Post>
    <Contacts/>
-   
-   </>
+  </>
  )
 }
 
