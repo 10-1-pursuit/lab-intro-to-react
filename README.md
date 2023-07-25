@@ -22,7 +22,7 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 1. Deploy this application to Netlify and add the link to your netlify site below:
 
-- [MY LIVE SITE URL]()
+- [http://localhost:5174/]()
 
 ## Instructions
 
