@@ -12,8 +12,9 @@ function App() {
   <>
    <Navbar/>
    <UserProfile/>
-   <Contacts/>
    <Post></Post>
+   <Contacts/>
+   
    </>
  )
 }
