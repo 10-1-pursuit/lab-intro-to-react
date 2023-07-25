@@ -9,3 +9,12 @@ body,
   height: 100%;
   width: 100%;
 }
+
+UserProfile {
+
+  border: 5px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: outset;
+
+}
