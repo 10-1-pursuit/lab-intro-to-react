@@ -14,12 +14,12 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <img src={profilePic} />
         <NavBar />
+        <Header />
+        {/* <img src={profilePic} /> */}
         <Post />
         <Posts />
-        <UserProfile />
+
         <ContactUserCard />
       </div>
     </>

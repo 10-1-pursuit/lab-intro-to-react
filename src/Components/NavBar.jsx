@@ -1,10 +1,10 @@
-import react from "react";
+import React from "react";
 import Links from "./Links";
 
 function NavBar() {
     return (
         <>
-            <div>
+            <div className="NavBar">
                 <nav>
                     <h1> Nav Menu Bar </h1>
                     <ul>
@@ -15,7 +15,7 @@ function NavBar() {
 
             </div>
         </>
-    )
+    );
 }
 
 

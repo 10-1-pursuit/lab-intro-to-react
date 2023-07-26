@@ -1,17 +1,12 @@
-
+import React from "react";
 
 function Contacts() {
+    return (
+        <div>
 
-    <div>
-        <li> Mitchell </li>
-        <li>  Jay </li>
-        <li> Gloria </li>
-        <li> Manny </li>
-        <li> Phil </li>
-        <li> Claire</li>
-    </div>
+        </div>
 
-
+    );
 }
 
 export default Contacts;

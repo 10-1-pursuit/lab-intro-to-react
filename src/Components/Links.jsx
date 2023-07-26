@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 
 function Links() {
@@ -20,7 +20,7 @@ function Links() {
                 </li>
             </div>
         </>
-    )
+    );
 }
 
 export default Links;

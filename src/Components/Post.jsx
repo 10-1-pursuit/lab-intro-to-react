@@ -1,13 +1,15 @@
+import React from "react"
+
 function Post() {
-
-    <div className="postDiv">
-        <h1> Posts </h1>
-
-
-
-    </div>
+    return (
+        <div className="postDiv">
+            <h1> Posts </h1>
 
 
+
+        </div>
+
+    )
 }
 
 
