@@ -1,27 +1,23 @@
-import react from "react"
-import { Link } from "react-router-dom"
-import Links from "./Links"
+import react from "react";
+import Links from "./Links";
 
 function NavBar() {
     return (
+        <>
             <div>
-                <li>
-                    <Link to "#"> What is Pursuit? </Link>
-            </li>
-            <li>
-                <Link to "#"> Create an Account</Link>
-        </li >
-        <li>
-            <Link to "#"> Sign in </Link>
+                <nav>
+                    <h1> Nav Menu Bar </h1>
+                    <ul>
+                        <Links />
+                    </ul>
 
-</li >
+                </nav>
 
-
-
-        </div >
-
+            </div>
+        </>
+    )
 }
-)
+
 
 
 export default NavBar;

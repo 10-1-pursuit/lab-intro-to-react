@@ -1,15 +1,16 @@
-import NavBar from "./NavBar.jsx"
+import NavBar from "./NavBar"
+import Links from "./Links"
+
 
 function Header() {
 
     return (
-        <header>
-            <h1>My Header</h1>
-            <NavBar>
-                <Links></Links>
-            </NavBar>
+        <div>
+            <Header>
+                <h1>My Header</h1>
 
-        </header>
+            </Header>
+        </div>
     )
 
 }
