@@ -1,4 +1,5 @@
 import React from "react";
+import Post from "./Components/Post";
 import "./index.css";
 
 function App() {
