@@ -1,4 +1,4 @@
-import ContactUserCard from "./ContactUserCard.jsx";
+import ContactUserCard from "./ContactUserCard.jsx"
 import React from "react"
 import "./Contacts.css"
 

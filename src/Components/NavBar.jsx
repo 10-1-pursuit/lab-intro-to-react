@@ -1,6 +1,6 @@
 import React from "react"
 import "./NavBar.css"
-import Button from "./Buttons"
+
 
 function NavBar() {
     return (

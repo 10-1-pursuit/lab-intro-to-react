@@ -1,9 +1,9 @@
-.button {
-    background-color: pink;
+button {
+    background-color: rgb(246, 128, 148);
 }
 .navbar {
     display: flex;
     justify-content: right;
-    background-color: skyblue;
+    background-color: rgb(7, 143, 196);
     padding: 10px;
 }

@@ -3,7 +3,9 @@ import Posts from "./Posts.jsx"
 
 function Post (){
     return (
-        <div>
+        <div className="Post">
+
+
             <p>{Posts.title}</p>
 
             <p>{Posts.description}</p>

@@ -4,7 +4,8 @@ import "./Posts.css"
 
 function Posts () {
     return (
-        <div>
+        <div className="Post">
+            
             <Post />
             <Post />
             <Post />
