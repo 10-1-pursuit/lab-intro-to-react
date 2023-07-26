@@ -1,6 +1,6 @@
 
 
-export default function formatCards(user) {
+ function formatCards(user) {
     return user.firstName + " " + user.lastName;
   }
   
@@ -11,3 +11,6 @@ export default function formatCards(user) {
   };
 
   const cards = <h1>Hello, {formatCards(user)}!</h1>;
+
+
+  export default { formatCards, cards}
