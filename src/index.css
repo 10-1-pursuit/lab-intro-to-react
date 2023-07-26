@@ -9,3 +9,39 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.button {
+  margin: 10px;
+}
+
+.navBar {
+  background: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  border: 1px solid;
+}
+
+.userProfile h3, h4, h6 {
+  margin: 10px;
+}
+
+.posts {
+  text-align: center;
+  border: 1px solid;
+}
+
+.posting {
+  text-align: center;
+  border: 1px solid;
+}
+
+.contacts {
+  border: solid;
+  text-align: center;
+}
