@@ -9,3 +9,18 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.nav-links{
+  display: inline-flex;
+  width: 95%;
+  justify-content: right;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  height: 100%;
+  margin-top: 60px;
+}

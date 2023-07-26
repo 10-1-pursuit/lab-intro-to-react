@@ -20,7 +20,7 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 1. Open up the repository in VSCode. Follow the instructions below to complete the Lab.
 
-1. Deploy this application to Netlify and add the link to your netlify site below:
+2. Deploy this application to Netlify and add the link to your netlify site below:
 
 - [MY LIVE SITE URL]()
 
@@ -30,7 +30,7 @@ You will be building a static React Application that will show some blog posts a
 
 ![ProfilePage](./assets/ProfilePage.png)
 
-Rather than building on large HTML file, you will break up this view into multiple React components. You will create each component in its own file, export it, then import it into `App.js`, then you will structure the components to match the hierarchy listed below.
+ Rather than building on large HTML file, you will break up this view into multiple React components. You will create each component in its own file, export it, then import it into `App.js`, then you will structure the components to match the hierarchy listed below.
 
 You are given a number of blank files inside of `src/Components`, which will help guide you in figuring out what components you will need, along with the unit tests.
 
