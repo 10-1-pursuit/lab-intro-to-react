@@ -1,11 +1,82 @@
+ *{margin:0} 
 body {
   font-family: sans-serif;
   margin: 0;
+  grid-template-areas: "header  "
+                       "nav main "
+                       "nav main "
+                       "footer footer ";
+   display: grid;
+  grid-template-columns: 100% ;
+  grid-template-rows: 100%;
+  height:100vh ;
+
 }
 
 html,
 body,
-#root {
+div#root {
   height: 100%;
   width: 100%;
+  display:grid;
+  
 }
+
+
+div.top{border:2px solid black;
+ height:50px; ;
+
+background-color:aquamarine;
+
+text-align: right; justify-content: stretch
+
+
+;
+display:grid; grid-area: header;
+ 
+
+
+}
+
+.button{padding: 8px;}
+
+.profile{border:2px solid black;float:left
+;width:500px; }
+
+.posts{border:2px solid red;float:left;width:500px;height:100%}
+
+.post{border: 2px solid black; float:left;}
+
+.pro{border: 2px solid black
+;float:inline-end;text-align:right;}
+
+   .contacts{border:2px solid black;float:right;width:100px;text-align:center ;position: absolute;
+    top:50px;
+    right:15px;
+    ;}  
+div.contacts{width:400px;float:right;display: flex;background-color: red;height:120%} 
+
+div.pro{width:475px;display:grid;text-align: right;justify-content: right;} */
+ 
+
+div.posts{color:red;height:100px; display: grid;justify-content: left;background-color: yellowgreen;text-align: center;}
+
+ /* main.rs-content{display:grid;grid-template-columns: 1fr  ;} */
+div.post{width:500px; display: grid; text-align: center;}
+
+.rs-container{display: grid;}
+header{color:red}
+
+/* div.top,div.profile,div.posts,div.post,div.contacts,div.pro{display: grid;} */
+/* div.top{grid-column-end: span;} */
+
+/* .one{height: 500px;} */
+
+footer.rs-footer{ display:flex;color:blueviolet; justify-content: right;
+  position: absolute;
+  top:100px;
+  right:15px;
+}
+
+div.pro{width :375px;text-align: right;;}
+.three{text-align: center;}
