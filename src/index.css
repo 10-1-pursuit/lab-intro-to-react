@@ -9,3 +9,12 @@ body,
   height: 100%;
   width: 100%;
 }
+
+div {
+  border: 1px solid gold;
+}
+
+.App {
+  background: mintcream; /* if mintcream is too light you can try mistyrose or another color */
+  min-height: 100vh;
+}
