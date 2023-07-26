@@ -2,23 +2,34 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
-
+header{
+  background-color: aquamarine;
+}
 html,
 body,
 #root {
   height: 100%;
   width: 100%;
 }
+.button{padding:20px}
 
-div {
-  width: 200px;
-  overflow: hidden;
-  border: 1px solid #ff1100;
-  clear: both;
+.shaded {
+  border:30px solid; color:aquamarine;
+  text-align: right;
 }
-p {
-  margin-bottom: 10px;
+
+.contact{
+  float:right;
+  border: 2px solid black;
+  height:290px;
+  width:400px;
+  padding: 10px;
+  margin-right:10px;
+  position: relative;
 }
-input.right {
-  float: right;
+
+.Contacts{
+  border: 2px solid black;
+  text-align: right;
+  float:right;
 }

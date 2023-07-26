@@ -1,5 +1,5 @@
-function contacts(){
-    return (<div><h1>Contacts</h1></div>);
+function Contacts(){
+    return (<h1 class="Contacts">Contacts</h1>);
 }
 
-export default contacts;
+export default Contacts;

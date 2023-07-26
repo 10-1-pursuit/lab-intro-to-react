@@ -1,4 +1,4 @@
-function post() {
+function Post() {
   return (
     <>
       <div>
@@ -16,4 +16,4 @@ function post() {
     </>
   );
 }
-export default post;
+export default Post;

@@ -1,4 +1,4 @@
-function userProfile(){
+function UserProfile(){
     return(
         <div>
             <img src="src/profile.png"></img>
@@ -9,4 +9,4 @@ function userProfile(){
     )
 }
 
-export default userProfile;
+export default UserProfile;
