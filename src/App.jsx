@@ -1,12 +1,15 @@
 import React from "react";
 import "./index.css";
 import Navbar from "./Components/NavBar.jsx";
+import UserProfile from "./Components/UserProfile.jsx";
 
 function App() {
   return [
-    < div >
+    <><div>
       <Navbar />
-    </div >
+    </div><section className="user-container">
+        <UserProfile />
+      </section></>
   ];
 }
 

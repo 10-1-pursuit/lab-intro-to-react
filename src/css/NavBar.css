@@ -15,14 +15,8 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
-    margin-right: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#nav-home {
-    margin-right: 1100px;
-}
-
-#nav-logout {
-    margin-left: 25px;
-}
