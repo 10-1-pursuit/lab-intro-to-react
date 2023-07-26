@@ -9,3 +9,20 @@ body,
   height: 100%;
   width: 100%;
 }
+.mainContainer{
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+
+}
+
+.left{
+  margin:10px
+}
+
+.profiler{
+  margin-bottom: 10px;
+}
+
+.contacts{
+  margin: 10px;;
+}
