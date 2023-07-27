@@ -1,8 +1,5 @@
-
-function Post(){
-    return(
-        <></>
-    );
+function Post() {
+  return <p>Hello from Post</p>;
 }
 
-export default Post
+export default Post;
