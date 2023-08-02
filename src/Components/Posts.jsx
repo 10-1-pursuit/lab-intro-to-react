@@ -1,3 +1,5 @@
+import Post from './Post.jsx'
+
 
 // Main post container
 function Posts() {
@@ -5,6 +7,7 @@ function Posts() {
         <>
         <div> 
             <h1>Posts</h1>
+            <Post />
         </div>
         
         </>
