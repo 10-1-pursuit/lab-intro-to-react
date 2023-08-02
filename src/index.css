@@ -9,3 +9,67 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.navbar{
+background-color: aquamarine;
+}
+
+.navbar button{
+  background-color:gold;
+  position: relative;
+  left: 600px;
+  
+}
+
+.userprofile{
+  margin: 20px;
+  border-style: ridge;
+  width: 60%;
+}
+
+
+.profile{
+  position: absolute;
+ left: 170px;
+ top:6%;
+   border-style: hidden;
+}
+
+.posts{
+  margin: 20px;
+  border-style: ridge;
+  width: 60%;
+  text-align: center;
+  
+}
+
+.post{
+  border-style: ridge;
+ margin: 0.5rem;
+ text-align: center;
+ 
+}
+
+.contacts{
+  position: absolute;
+  top: 6%;
+  right: 0;
+  width: 35%;
+  border-style: ridge;
+  text-align: center;
+}
+.user{
+  border-style: ridge;
+margin: 1rem;
+text-align: justify;
+}
+.userContact{
+position:absolute;
+  text-align: left;
+  right: 4.5rem;
+  margin-top: -9rem;
+}
+
+
+
+
