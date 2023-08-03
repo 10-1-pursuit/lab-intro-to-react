@@ -9,3 +9,32 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.Nav {
+  background-color: black;
+  color: teal;
+  padding: 10px;
+  text-align: right;
+}
+
+.userProfile,
+.Posts,
+.Contacts {
+  margin-bottom: 50px;
+}
+
+.Posts div {
+  background-color: teal;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Contacts div {
+  background-color: teal;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
