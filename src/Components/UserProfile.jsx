@@ -1,5 +1,11 @@
+import "./userProfile.css";
+
 function UserProfile() {
-  return <p>Hello from the UserProfile</p>;
+  return (
+    <div className="UserProfile">
+      <p>Hello from the UserProfile</p>
+    </div>
+  );
 }
 
 export default UserProfile;

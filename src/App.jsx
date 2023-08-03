@@ -7,13 +7,15 @@ import "./index.css";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <p>Hello, world!</p>
-      <UserProfile />
-      <Posts />
-      <Contacts />
-    </div>
+    <>
+        <NavBar />
+      <div>
+        <p>Hello, world!</p>
+        <UserProfile />
+        <Posts />
+        <Contacts />
+      </div>
+    </>
   );
 }
 
