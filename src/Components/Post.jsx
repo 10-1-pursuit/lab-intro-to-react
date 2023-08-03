@@ -3,8 +3,8 @@ import React from "react";
 function Post() {
     return (
     <div>
-    <h2>Lorem Ipsum</h2>
-    <p>Vitae semper quis lectus nulla at volutpat diam ut venenatis.</p>
+    <p>Lorem Ipsum</p>
+    <h1>Lorem Ipsum.</h1>
     </div>
 
 );

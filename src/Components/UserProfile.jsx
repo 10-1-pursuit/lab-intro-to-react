@@ -5,9 +5,9 @@ function UserProfile() {
     return (
     <div className="userProfile">
         <img src={defaultPicture} />
-        <h2>User Name</h2>
-        <h3>React Creator</h3>
-        <h4>Pursuit Fellow</h4>
+        <h1>Name</h1>
+        <h2>React Creator</h2>
+        <h3>Pursuit Fellow</h3>
     </div> 
 );
 }
