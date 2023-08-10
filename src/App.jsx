@@ -1,8 +1,15 @@
 import React from "react";
-import "./index.css";
+import NavBar from './Components/NavBar';
+import UserProfile from './Components/UserProfile';
+import './index.css'
 
 function App() {
-  return <p>Hello, world!</p>;
+  return (  // <NavBar />
+    <div>
+      <NavBar />
+      <UserProfile />
+    </div>
+  );
 }
 
-export default App;
+export default App; // export default NavBar; 
