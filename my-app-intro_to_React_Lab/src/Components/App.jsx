@@ -3,10 +3,10 @@ import "./index.css";
 import '../App.css'
 
 
-import NavBar from './NavBar'
+import NavBar from './NavBar.jsx'
 import Contacts from './Contacts.jsx'
 import Posts from './Posts'
-import UserProfile from './UserProfile'
+import UserProfile from './UserProfile.jsx'
 // import App from '../Components'
 
 
