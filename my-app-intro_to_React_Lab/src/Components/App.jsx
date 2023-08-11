@@ -14,7 +14,8 @@ function App() {
   return (
     <div>
      <p>Hello, world!</p>
-
+    <NavBar/>
+    <UserProfile/>
     </div>
   );
 }
