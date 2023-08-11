@@ -2,10 +2,13 @@
 
 function UserProfile() {
     return (
-        <div className="profile">
-            <h2>Alvin Johnson</h2>
-            <h4>React Developer</h4>
-            <p>Lorem ipsum</p>
+        <div className="userprofile">
+            <img src="src/profile.png" alt=" profile-photo-silhouette" />
+            <div className="usercredentials">
+                <h2>Alvin Johnson</h2>
+                <h4>React Developer</h4>
+                <p>Lorem ipsum</p>
+            </div>
         </div >
     )
 }

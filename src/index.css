@@ -9,15 +9,75 @@
   display: grid;
   grid-template-columns: repeat(25, 1fr);
   gap: 12px;
-  margin-left: 3000px;
+  margin-left: 2200px;
 }
-.profile {
-  margin-top: 10px;
-  border: 2px black solid;
-  width: 1200px;
-  height: 400px;
+.userprofile {
+  margin: 32px 0px 0px 32px;
+  border: 1px black solid;
+  width: 1400px;
+  height: 300px;
+}
+.usercredentials {
+  text-align: center;
 }
 
+.post {
+  margin: 64px 0px 100px 32px;
+  border: 1px black solid;
+  width: 1400px;
+  height: 1000px;
+}
+
+.postheader {
+  text-align: center;
+}
+
+.title1 {
+  text-align: center;
+  margin: 32px 0px 0px 32px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title2 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title3 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+.title4 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title5 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title6 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
 body {
   font-family: sans-serif;
   margin: 0;
