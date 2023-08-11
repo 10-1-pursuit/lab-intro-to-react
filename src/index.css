@@ -11,7 +11,7 @@
   gap: 12px;
   margin-left: 2200px;
 }
-/* .lamb {
+/* ... didnt even need it figured it out 🧠.lamb144 {
   width: 10px;
   height: 10px;
 } */
@@ -98,6 +98,57 @@
 
 .contactusercardheader {
   text-align: center;
+}
+
+.moveimagecontacts {
+  padding: 0px 1000px 0px 0px;
+}
+
+.movethisboxcontacts {
+  border: 0px black solid;
+  padding: 0px 0px 0px 50px;
+  margin: -135px 0px 0px 10px;
+  width: 300px;
+}
+
+.contacts1 {
+  text-align: center;
+  margin: 32px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts2 {
+  text-align: center;
+  margin: 32px 0px 200px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts3 {
+  text-align: center;
+  margin: -170px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts4 {
+  text-align: center;
+  margin: 32px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts5 {
+  text-align: center;
+  margin: 32px 0px 200px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
 }
 body {
   font-family: sans-serif;
