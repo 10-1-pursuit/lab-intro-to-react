@@ -3,11 +3,13 @@
 function UserProfile() {
     return (
         <div className="userprofile">
-            <img src="src/profile.png" alt=" profile-photo-silhouette" />
-            <div className="usercredentials">
-                <h2>Alvin Johnson</h2>
-                <h4>React Developer</h4>
-                <p>Lorem ipsum</p>
+            <img className="Lamb144" src="src/Lamb144.png" alt=" Alvin Jonnson pursuit Launch day photo" />
+            <div className="movethisbox">
+                <div className="usercredentials">
+                    <h3>Alvin Johnson</h3>
+                    <p><b>React Developer</b></p>
+                    <p>Active Learner</p>
+                </div>
             </div>
         </div >
     )

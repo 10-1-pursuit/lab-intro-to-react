@@ -11,12 +11,22 @@
   gap: 12px;
   margin-left: 2200px;
 }
+/* .lamb {
+  width: 10px;
+  height: 10px;
+} */
 .userprofile {
   margin: 32px 0px 0px 32px;
   border: 1px black solid;
   width: 1400px;
   height: 300px;
 }
+.movethisbox {
+  border: 0px black solid;
+  margin: -130px 1000px 0px 70px;
+  width: 300px;
+}
+
 .usercredentials {
   text-align: center;
 }
