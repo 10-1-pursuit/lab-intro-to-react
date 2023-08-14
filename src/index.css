@@ -9,3 +9,34 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* grid columns, adjust as needed */
+  grid-gap: 10px; /* gap between grid items, adjust as needed */
+  grid-template-areas:
+  "navBar navBar"
+  ;
+}
+
+
+.navBar {
+  display:grid;
+  grid-area: navBar;
+  margin: 0;
+  border: gold solid 0px;
+  background-color: aqua;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px; 
+  justify-content: right;
+  align-items: end;
+  margin-bottom: 11px;
+  margin-right: 11px; 
+}
+
+.btn {
+  background-color: rgb(148, 148, 204);
+}

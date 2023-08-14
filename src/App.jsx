@@ -9,15 +9,17 @@ import UserProfile from "./Components/UserProfile";
 
 function App() {
   return <>
-  <p>Yes Hello, world!</p>
+    {/* <p>Yes Hello, world!</p> */}
+    <div className="grid-container">
 
-  <Contacts/>
-  <ContactUserCard/>
-  <NavBar/>
-  <Post/>
-  <Posts/>
-  <UserProfile/>
+      <Contacts />
+      <ContactUserCard />
+      <NavBar />
+      <Post />
+      <Posts />
+      <UserProfile />
 
+    </div>
   </>
 };
 
