@@ -12,16 +12,20 @@ body,
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* grid columns, adjust as needed */
-  grid-gap: 10px; /* gap between grid items, adjust as needed */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
   grid-template-areas:
-  "navBar navBar"
-  ;
+    "navBar navBar navBar"
+    "contactUserCard-container contactUserCard-container contacts-container"
+    "posts posts contacts-containeer"
+    "posts posts contacts-containeer"
+    ;
 }
 
 
 .navBar {
-  display:grid;
+  display: grid;
   grid-area: navBar;
   margin: 0;
   border: gold solid 0px;
@@ -30,13 +34,86 @@ body,
 
 .btn-container {
   display: flex;
-  gap: 10px; 
+  gap: 10px;
   justify-content: right;
   align-items: end;
-  margin-bottom: 11px;
-  margin-right: 11px; 
+  margin: 11px;
 }
 
 .btn {
   background-color: rgb(148, 148, 204);
 }
+
+.contacts-container {
+  grid-area: contacts-container;
+  grid-template-columns: 1fr;
+  background-color: rgb(148, 148, 204);
+  border: goldenrod solid 2px;
+  padding: 11px;
+  text-align: center;
+  grid-template-areas: 
+  "contactUserCard-container";
+}
+
+
+.contactUserCard-container {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Adjust column sizing as needed */
+  align-items: center;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+  margin: 22px;
+  text-align: center;
+}
+
+.img {
+  /* No need for display: grid here */
+  /* height: 100%; */
+}
+
+.info {
+  margin-right: 122px;
+  /* No need for display: grid here */
+}
+
+.userProfile {
+  /* grid-area: userProfile;
+  display: grid; */
+  background-color: rgb(55, 189, 129);
+  border: gold solid 5px;
+  
+} 
+/* 
+
+
+
+.contactUserCard-container{
+  grid-area: contactUserCard-container;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+}
+
+.posts {  
+  grid-area: posts;
+  display: grid;
+  background-color: rgb(189, 55, 169);
+  border: goldenrod solid 2px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "post"
+  "post"
+  ;
+}
+
+.post {  
+  grid-area: post;
+  display: grid;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+}
+
+.userProfile {
+  grid-area: userProfile;
+  display: grid;
+  background-color: rgb(55, 189, 129);
+} */
