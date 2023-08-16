@@ -1,5 +1,7 @@
 # React Introduction Lab
 
+![ProfilePage](./assets/Screenshot%202023-08-15%20at%208.51.51%20PM.png)
+
 Edit multiple JavaScript files in this lab as you get the hang of creating and using components.
 
 ---
