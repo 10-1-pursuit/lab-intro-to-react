@@ -8,25 +8,24 @@ import Posts from "./Components/Posts/Posts";
 import UserProfile from "./Components/UserProfile/UserProfile";
 
 function App() {
-  return <>
-    {/* <p>Yes Hello, world!</p> */}
-    <div className="grid-container">
+  return (
+    <>
+      {/* <p>Yes Hello, world!</p> */}
+      <div className="grid-container">
+        
+          <NavBar />
+        
 
-      <div>
-        <UserProfile />
+        <div>
+          <UserProfile />
+          <Posts />
+        </div>
+
+        <div>
+          <Contacts />
+        </div>
       </div>
-
-      <div>
-        <Contacts />
-        <div><ContactUserCard /></div>
-      </div>
-      <NavBar />
-      {/* <Post /> */}
-      {/* <Posts /> */}
-      {/* <UserProfile /> */}
-
-    </div>
-  </>
-};
-
+    </>
+  );
+}
 export default App;

@@ -9,6 +9,10 @@ function Contacts() {
 
             <ContactUserCard />
 
+            <ContactUserCard />
+
+            <ContactUserCard />
+
 
         </div>
     );

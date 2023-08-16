@@ -10,23 +10,35 @@ body,
   width: 100%;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr, 1fr;
   grid-template-rows: 1fr;
   grid-gap: 10px;
   grid-template-areas:
     "navBar navBar navBar"
-    "contactUserCard-container contactUserCard-container contacts-container"
+    "userProfile userProfile contacts-container"
     "posts posts contacts-containeer"
-    "posts posts contacts-containeer"
-    ;
+  ;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "navBar navBar navBar"
+    "userProfile userProfile contacts-container"
+    "posts posts contacts-container"
+  ;
 }
 
 
 .navBar {
   display: grid;
   grid-area: navBar;
+  height: 75px;
   margin: 0;
   border: gold solid 0px;
   background-color: aqua;
@@ -42,23 +54,26 @@ body,
 
 .btn {
   background-color: rgb(148, 148, 204);
+  height: 33px;
 }
 
 .contacts-container {
+  display: grid;
   grid-area: contacts-container;
   grid-template-columns: 1fr;
   background-color: rgb(148, 148, 204);
   border: goldenrod solid 2px;
   padding: 11px;
+  margin: 22px;
   text-align: center;
-  grid-template-areas: 
-  "contactUserCard-container";
+  grid-template-areas:
+    "contactUserCard-container";
 }
 
 
 .contactUserCard-container {
   display: grid;
-  grid-template-columns: auto 1fr; /* Adjust column sizing as needed */
+  grid-template-columns: auto 1fr;
   align-items: center;
   background-color: rgb(55, 55, 189);
   border: goldenrod solid 2px;
@@ -67,8 +82,7 @@ body,
 }
 
 .img {
-  /* No need for display: grid here */
-  /* height: 100%; */
+  /* height: auto; */
 }
 
 .info {
@@ -77,12 +91,35 @@ body,
 }
 
 .userProfile {
-  /* grid-area: userProfile;
-  display: grid; */
+  grid-area: userProfile;
+  display: grid;
   background-color: rgb(55, 189, 129);
   border: gold solid 5px;
-  
-} 
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 22px;
+  text-align: center;
+
+}
+
+.posts {
+  display: grid;
+  grid-area: posts;
+  margin: 22px;
+  border: gold solid 0px;
+  background-color: aqua;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+  margin: 22px;
+  text-align: center;
+}
+
 /* 
 
 
