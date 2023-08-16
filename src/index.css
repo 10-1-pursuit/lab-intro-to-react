@@ -9,3 +9,148 @@ body,
   height: 100%;
   width: 100%;
 }
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "navBar navBar navBar"
+    "userProfile userProfile contacts-container"
+    "posts posts contacts-containeer"
+  ;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "navBar navBar navBar"
+    "userProfile userProfile contacts-container"
+    "posts posts contacts-container"
+  ;
+}
+
+
+.navBar {
+  display: grid;
+  grid-area: navBar;
+  height: 75px;
+  margin: 0;
+  border: gold solid 0px;
+  background-color: aqua;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  align-items: end;
+  margin: 11px;
+}
+
+.btn {
+  background-color: rgb(148, 148, 204);
+  height: 33px;
+}
+
+.contacts-container {
+  display: grid;
+  grid-area: contacts-container;
+  grid-template-columns: 1fr;
+  background-color: rgb(148, 148, 204);
+  border: goldenrod solid 2px;
+  padding: 11px;
+  margin: 22px;
+  text-align: center;
+  grid-template-areas:
+    "contactUserCard-container";
+}
+
+
+.contactUserCard-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+  margin: 22px;
+  text-align: center;
+}
+
+.img {
+  /* height: auto; */
+}
+
+.info {
+  margin-right: 122px;
+  /* No need for display: grid here */
+}
+
+.userProfile {
+  grid-area: userProfile;
+  display: grid;
+  background-color: rgb(55, 189, 129);
+  border: gold solid 5px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 22px;
+  text-align: center;
+
+}
+
+.posts {
+  display: grid;
+  grid-area: posts;
+  margin: 22px;
+  border: gold solid 0px;
+  background-color: aqua;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+  margin: 22px;
+  text-align: center;
+}
+
+/* 
+
+
+
+.contactUserCard-container{
+  grid-area: contactUserCard-container;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+}
+
+.posts {  
+  grid-area: posts;
+  display: grid;
+  background-color: rgb(189, 55, 169);
+  border: goldenrod solid 2px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "post"
+  "post"
+  ;
+}
+
+.post {  
+  grid-area: post;
+  display: grid;
+  background-color: rgb(55, 55, 189);
+  border: goldenrod solid 2px;
+}
+
+.userProfile {
+  grid-area: userProfile;
+  display: grid;
+  background-color: rgb(55, 189, 129);
+} */
