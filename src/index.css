@@ -1,3 +1,157 @@
+/* This is all Original LOX */
+
+.navBar {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background: #ccffff;
+}
+.btn {
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  gap: 12px;
+  margin-left: 2200px;
+}
+/* ... didnt even need it figured it out 🧠.lamb144 {
+  width: 10px;
+  height: 10px;
+} */
+.userprofile {
+  margin: 32px 0px 0px 32px;
+  border: 1px black solid;
+  width: 1400px;
+  height: 300px;
+}
+.movethisbox {
+  border: 0px black solid;
+  margin: -130px 1000px 0px 70px;
+  width: 300px;
+}
+
+.usercredentials {
+  text-align: center;
+}
+
+.post {
+  margin: 64px 0px 100px 32px;
+  border: 1px black solid;
+  width: 1400px;
+  height: 1000px;
+}
+
+.postheader {
+  text-align: center;
+}
+
+.title1 {
+  text-align: center;
+  margin: 32px 0px 0px 32px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title2 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title3 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+.title4 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title5 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.title6 {
+  text-align: center;
+  margin: 64px 0px 200px 0px;
+  border: 1px black solid;
+  width: 1335px;
+  height: 100px;
+}
+
+.contactusercard {
+  margin: -1468px -1900px 600px 1500px;
+  border: 1px black solid;
+  width: 1000px;
+  height: 1365px;
+}
+
+.contactusercardheader {
+  text-align: center;
+}
+
+.moveimagecontacts {
+  padding: 0px 1000px 0px 0px;
+}
+
+.movethisboxcontacts {
+  border: 0px black solid;
+  padding: 0px 0px 0px 50px;
+  margin: -135px 0px 0px 10px;
+  width: 300px;
+}
+
+.contacts1 {
+  text-align: center;
+  margin: 32px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts2 {
+  text-align: center;
+  margin: 32px 0px 200px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts3 {
+  text-align: center;
+  margin: -170px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts4 {
+  text-align: center;
+  margin: 32px 0px 0px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
+
+.contacts5 {
+  text-align: center;
+  margin: 32px 0px 200px 50px;
+  border: 1px black solid;
+  width: 900px;
+  height: 200px;
+}
 body {
   font-family: sans-serif;
   margin: 0;
